@@ -1,0 +1,20 @@
+# Generator Fuel Consumption
+
+# fuel consumed per hour (liters)
+fuel_per_hour = 2.5
+
+# fuel price per liter (RWF)
+fuel_price = 1800
+
+# number of hours generator runs
+hours = 5
+
+# calculate total fuel consumed
+total_fuel = fuel_per_hour * hours
+
+# calculate total fuel cost
+total_cost = total_fuel * fuel_price
+
+# display results
+print("Total fuel consumed:", total_fuel, "liters")
+print("Total fuel cost:", total_cost, "RWF")

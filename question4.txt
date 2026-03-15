@@ -1,0 +1,15 @@
+# Printing Services in a Computer Lab
+
+# number of pages printed
+pages = 85
+
+# cost per page (RWF)
+cost_per_page = 50
+
+# calculate total printing cost
+total_cost = pages * cost_per_page
+
+# display the result
+print("Number of pages:", pages)
+print("Cost per page:", cost_per_page, "RWF")
+print("Total printing cost:", total_cost, "RWF")
