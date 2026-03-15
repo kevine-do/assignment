@@ -1,0 +1,20 @@
+# Laptop Installment Plan
+# Student example using variables
+
+# store total price of laptop
+total_price = 1200000
+
+# store deposit paid by customer
+deposit = 300000
+
+# calculate remaining balance
+remaining_balance = total_price - deposit
+
+# calculate monthly installment for 6 months
+monthly_installment = remaining_balance / 6
+
+# display results
+print("Total price:", total_price, "RWF")
+print("Deposit:", deposit, "RWF")
+print("Remaining balance:", remaining_balance, "RWF")
+print("Monthly installment:", monthly_installment, "RWF")
