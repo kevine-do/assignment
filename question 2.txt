@@ -1,0 +1,15 @@
+# Hostel Room Sharing
+
+# store the room cost
+room_cost = 240000
+
+# store number of students
+students = 3
+
+# calculate how much each student pays
+payment_per_student = room_cost / students
+
+# display the result
+print("Room cost:", room_cost, "RWF")
+print("Number of students:", students)
+print("Each student should pay:", payment_per_student, "RWF")
